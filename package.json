@@ -1,0 +1,24 @@
+{
+  "name": "burgershop",
+  "version": "1.0.0",
+  "description": "burgerrrr devour",
+  "main": "server.js",
+  "scripts": {
+    "test": "d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanshotjack/BurgerShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanshotjack/BurgerShop/issues"
+  },
+  "homepage": "https://github.com/jeanshotjack/BurgerShop#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
+  }
+}
