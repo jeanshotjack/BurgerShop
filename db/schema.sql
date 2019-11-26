@@ -6,7 +6,7 @@ USE burgers_db;
 
 CREATE TABLE burg (
     id INT NOT NULL AUTO_INCREMENT,
-    burgname VARCHAR(30) NOT NULL,
-    devour BOOLEAN FALSE,
+    burgname VARCHAR(130) NOT NULL,
+    devour BOOLEAN NOT NULL DEFAULT 0,
     PRIMARY KEY (id)
 );
