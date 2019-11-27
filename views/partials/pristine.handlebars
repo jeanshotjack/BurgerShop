@@ -1,0 +1,10 @@
+<div class="card">
+<ul>
+    {{#each burgs}}
+    {{#unless this.devour}}
+    <p>{{this.burgname}}</p>
+    <button class="devour-button" type="submit" data-id={{this.id}} data-devour={{devour}}>DEVOUR</button>
+    {{/unless}}
+    {{/each}}
+</ul>
+</div>
