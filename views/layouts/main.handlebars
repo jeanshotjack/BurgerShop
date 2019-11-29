@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-		<title>Burger Shop</title>
-		<script src="https://code.jquery.com/jquery.js"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="/assets/js/js.js"></script>
-	</head>
-	<body>
+	<title>Burger Shop</title>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="/assets/css/css.css">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<script src="/assets/js/js.js"></script>
+</head>
+
+<body>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4 m-auto">Order Up! </h1>
+			<div class="row mt-5">
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Burger Name" aria-label="Burger Name"
+						id="burgerName">
+					<div class="input">
+						<button class="btn btn-outline-success" type="button" id="addBurger">Add</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
 		{{{ body }}}
-	</body>
+	</div>
+
+</body>
+
 </html>
